@@ -367,42 +367,6 @@ def Add_NewLotID(): # ne lot
     # print('B'+str(l2[len(l2)-1])+':'+'B'+str(sht2.max_row))
     sht2.merge_cells('C'+str(l3[len(l3)-1])+':'+'C'+str(sht2.max_row))
     # print('C'+str(l3[len(l3)-1])+':'+'C'+str(sht2.max_row))
-    
-    # b = []
-    # for g in range(len(q)):
-    #     h = re.sub(r'\d+:\S+','', q[g])
-    #     f = re.findall(r'\d+', q[g])
-    #     b.append(h)
-    #     # print(int(f[0]), int(f[1]))
-    #     former = int(f[0])
-    #     last0 = int(f[1])
-    #     print(former, last0)
-    #     if c <= last0 and g == 0:
-    #         print(last0)
-    #         last = last0+1
-    #         print(last)
-    #         # print(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #     elif c > last0 and g == 0:
-    #         print(last0)
-    #         # print(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #         pass
-    #     elif c<=last0 and sht2.cell(last,3).value == 'Y1931A':
-    #         print(last0)
-    #         last= last0+1
-    #         print(last)
-    #         # print(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #     elif c<=last0 and g>0:
-    #         print(last0)
-    #         former = former+1
-    #         last = last0+1
-    #         print(last)
-    #         # print(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #     else:
-    #         print(last0)
-    #         print('Error')
-    #         # print(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #     # sht2.merge_cells(str(b[g])+str(former)+':'+str(b[g])+str(last))
-    #     g = g+1
 
 
 if __name__ == '__main__':
